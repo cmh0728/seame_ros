@@ -39,3 +39,20 @@
 
 # debug information files
 *.dwo
+
+# macOS
+.DS_Store
+*.DS_Store
+
+# logs
+*.log
+log/
+*.log.*
+
+# colcon build artifacts
+build/
+install/
+
+# python cache
+__pycache__/
+*.pyc

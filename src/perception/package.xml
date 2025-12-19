@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>perception</name>
+  <version>0.0.1</version>
+  <description>Perception stage of the SEA-ME autonomous driving stack.</description>
+  <maintainer email="todo@example.com">SEA:ME Team</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- message 생성 관련 -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- 공통 의존성 -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>OpenCV</depend>
+  <depend>Eigen3</depend>
+  <depend>yaml-cpp</depend>
+
+  <!-- 이 패키지가 인터페이스 패키지라는 표시(권장) -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
