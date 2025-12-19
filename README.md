@@ -1,10 +1,8 @@
-# SEA:ME  Autonomous Driving System
+# SEAME-ROS ADS
 
-SEA:ME Team 1 autonomous driving stack built on ROS 2 and C++17 & Python. The stack is organized around a classic perception → planning → control pipeline to keep responsibilities clear and extensible.
+SEA:ME Team  autonomous driving stack built on ROS 2 and C++17 & Python. The stack is organized around a classic perception → planning → control pipeline to keep responsibilities clear and extensible.
 
-**Project : <ins>[SEA:ME - ADS](https://github.com/SEA-ME/SEA-ME-course-book/blob/main/AutonomousDrivingSystems/README.md)</ins>**
 
-**member : <ins>[Kevin Choi](https://github.com/cmh0728)</ins> , <ins>[James Jang](https://github.com/jjangddung)</ins>, <ins>[Kijin Baek](https://github.com/kiiznii)</ins>**
 
 ## Software requirements
 - ROS 2 humble
@@ -16,7 +14,7 @@ SEA:ME Team 1 autonomous driving stack built on ROS 2 and C++17 & Python. The st
 ## Workspace Layout
 
 ```
-SEA-ME-ADS/
+seame-ros/
 ├── README.md
 └── src/
     ├── control/         
